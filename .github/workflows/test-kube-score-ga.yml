@@ -16,4 +16,4 @@ jobs:
       - name: kube-score check
         uses: piraces/kube-score-ga@v0.1.0
         with:
-          manifests-folders: './cassandra/*.yaml,./guestbook/*.yaml'
+          manifests-folders: './mysql-cinder-pd/*.yaml'
