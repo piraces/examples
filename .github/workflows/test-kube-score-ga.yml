@@ -14,6 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: kube-score check
-        uses: piraces/kube-score-ga@v0.1.0
+        uses: piraces/kube-score-ga@v0.1.1
         with:
           manifests-folders: './cassandra/*.yaml,./guestbook/*.yaml,./mysql-cinder-pd/*.yaml,./mysql-wordpress-pd/*.yaml'
