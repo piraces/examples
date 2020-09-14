@@ -1,4 +1,4 @@
-name: kube-score CI (ingore-exit-code)
+name: kube-score CI (ignore-exit-code)
 
 on:
   push:
